@@ -3,7 +3,7 @@
 An AI agent that reads a CV, searches real job listings, judges each role
 honestly against the candidate, and drafts an application a human approves.
 
-**[Live demo →](https://your-app.streamlit.app)**
+**[Live demo →](https://job-agent-demo-fozhdv8xpkxfcyllgw35uv.streamlit.app/)**
 
 ```bash
 pip install -r requirements.txt
