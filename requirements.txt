@@ -1,0 +1,6 @@
+anthropic>=0.116.0
+streamlit>=1.40.0
+requests>=2.32.0
+pydantic>=2.9.0
+reportlab>=4.2.0
+pypdf>=5.0.0

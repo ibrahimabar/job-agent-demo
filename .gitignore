@@ -1,0 +1,23 @@
+# Secrets — never commit these.
+.env
+.env.*
+!.env.example
+
+# Virtualenv and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated at runtime
+applications/
+data/cache/
+
+# The snapshot is large (~11 MB) but IS meant to be committed — students need it
+# and it makes the demo reproducible. Uncomment only if you would rather they
+# each run build_snapshot.py themselves.
+# data/jobs_snapshot.json
+
+.DS_Store
+
+# Streamlit Cloud secrets — set these in the dashboard, never in the repo
+.streamlit/secrets.toml
